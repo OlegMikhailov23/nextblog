@@ -1,0 +1,25 @@
+{
+  "name": "nextjsblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "nodemon app.js",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.6",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

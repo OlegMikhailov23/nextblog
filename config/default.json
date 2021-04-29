@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "",
+  "mongoUri": "mongodb+srv://admin:@nextblog@cluster0.vm53q.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:8000"
+}
